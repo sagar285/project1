@@ -1,0 +1,16 @@
+
+   <%- include("../partials/meta") %>
+
+<body>
+    <%- include("../partials/navbar") %>
+    <form class="bg-gray-100 ml-[17rem] w-[16rem] mt-[6rem]" action="/register" method="post">
+        <div>  <input type="text" name="name" class="bg-black text-white font-extrabold mt-3  " autocomplete="off" required placeholder="enter name"></div>
+        <div>  <input type="text" name="email" class="bg-black text-white font-extrabold  mt-3 "autocomplete="off" required placeholder="enter email"></div>
+        <div> <input type="text" name="phone" class="bg-black text-white font-extrabold  mt-3" autocomplete="off" required placeholder="enter phone"></div>
+        <div> <input type="text" name="password" class="bg-black text-white font-extrabold  mt-3" autocomplete="off" required placeholder="enter password"></div>
+        <div> <input type="text" name="confpassword" class="bg-black text-white font-extrabold  mt-3" autocomplete="off" required placeholder="enter confirm password"></div>
+<button type="submit" class="bg-black text-white font-extrabold  mt-3 " >submit</button>
+
+    </form>
+</body>
+</html>

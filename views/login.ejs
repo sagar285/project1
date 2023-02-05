@@ -1,0 +1,30 @@
+<%- include("../partials/meta") %>
+
+<%- include("../partials/navbar") %>
+<form
+  class="bg-gray-100 ml-[17rem] w-[16rem] mt-[6rem]"
+  action="/login"
+  method="post"
+>
+  <div>
+    <input
+      type="text"
+      name="email"
+      class="bg-black text-white font-extrabold mt-3"
+      autocomplete="off"
+      required
+    />
+  </div>
+  <div>
+    <input
+      type="password"
+      name="password"
+      class="bg-black text-white font-extrabold mt-3"
+      autocomplete="off"
+      required
+    />
+  </div>
+  <button type="submit" class="bg-black text-white font-extrabold mt-3">
+    login
+  </button>
+</form>
